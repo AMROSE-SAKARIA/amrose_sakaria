@@ -17,10 +17,11 @@ async def on_ready():
 
 @client.command()
 async def hi(ctx):
-    await ctx.reply("hello")
+    await ctx.reply("hello,I'm fine😄")
 
 @client.command()
 async def how(ctx):
     await ctx.reply("I'm fine😄")
+   
 
 client.run(TOKEN)
