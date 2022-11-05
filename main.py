@@ -23,4 +23,8 @@ async def hi(ctx):
 async def how(ctx):
     await ctx.reply("I'm fine😄")
 
+@client.command()
+async def help(ctx):
+    await ctx.reply("sure,what can i do for you?")
+
 client.run(TOKEN)
