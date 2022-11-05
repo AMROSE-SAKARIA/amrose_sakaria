@@ -19,4 +19,13 @@ async def on_ready():
 async def hi(ctx):
     await ctx.reply("hello,how are you?")
 
+<<<<<<< Updated upstream
 client.run(TOKEN)
+=======
+@client.command()
+async def how(ctx):
+    await ctx.reply("I'm fine😄")
+
+
+client.run(TOKEN)
+>>>>>>> Stashed changes
