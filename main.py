@@ -17,7 +17,7 @@ async def on_ready():
 
 @client.command()
 async def hi(ctx):
-    await ctx.reply("hello,I'm fine😄")
+    await ctx.reply("hello,how are you?")
 
 @client.command()
 async def how(ctx):
