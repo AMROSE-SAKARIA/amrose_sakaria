@@ -1,5 +1,6 @@
 import os
 import discord
+import youtube_dl
 from dotenv import load_dotenv
 from discord.ext import commands
 
@@ -24,7 +25,7 @@ client.run(TOKEN)
 
 @client.command()
 async def how(ctx):
-    await ctx.reply("I'm fine😄")
+    await ctx.reply("I'm fine😄,poda patty")
 
 
 client.run(TOKEN)
